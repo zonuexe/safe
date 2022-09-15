@@ -154,6 +154,8 @@ function apcu_fetch($key)
  * be returned, otherwise subject will be
  * returned unchanged.
  *
+ * @phpstan-return ($pattern is array ? array<string> : string)
+ *
  * @throws PcreException
  *
  */
